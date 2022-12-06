@@ -3,6 +3,7 @@ body{
     position: relative;
     font-family: serif;
     width: 100%;
+    height: 100%;
 }
 h1{
     font-size: 64px;
@@ -119,19 +120,22 @@ h4{
     font-style: italic;
 }
 h5 {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
+    margin-bottom: 50px;
 }
 #contacts{
     background-color: aquamarine;
     background-size: cover;
     display: block;
     position: absolute;
-    top: 170%;
-    left: 33%;
+    top: 165%;
+    left: 40%;
+    padding-bottom: 50px;
+    padding: 15px;
 }
 .icons{
-    margin-top: 200px;
+    margin-top: 20px;
 }
 #contacts img{
     width: 30px;
@@ -148,8 +152,8 @@ h5 {
     
 
 }
- .project1 {
-    width: 500px;
+.project1 {
+    width: 470px;
     height: auto;
     border-radius: 20%;
     border-color: black;
@@ -166,7 +170,7 @@ h5 {
     font-weight: bolder;
     border-style: solid;
     border-color: black;
-    margin-left: 20px;
+    margin-left: 47px;
     
 
 }
@@ -181,18 +185,36 @@ h5 {
     body {
         background-color:lightblue; 
         width: 100%;
+        height: 100%;
     }
    .bio{
     display: flex;
     flex-direction: column;
    }
-}
-@media screen and (min-width: 800px){
-    
-}
-@media screen and (min-height: 800px){
+   .button{
+    width:100%;
+    height:100%;
 
+   }
+}
+@media screen and (min-width: 700px){
+    body {
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (min-height: 700px){
+    body {
+        background-color: lavenderblush;
+        width: 100%;
+        height: 100%;
+    };
 }
 @media screen and (max-height:2160px){
-    
+    body{
+        background-color: lightgreen ;
+        width: 100%;
+        height: 100%;
+    }
 }
