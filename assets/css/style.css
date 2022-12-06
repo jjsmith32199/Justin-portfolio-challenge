@@ -181,7 +181,7 @@ h5 {
 .cLinks:active{
  color:antiquewhite
 }
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 600px){
     body {
         background-color:lightblue; 
         width: 100%;
@@ -194,6 +194,8 @@ h5 {
    .button{
     width:100%;
     height:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
 
    }
 }
@@ -217,4 +219,3 @@ h5 {
         width: 100%;
         height: 100%;
     }
-}
