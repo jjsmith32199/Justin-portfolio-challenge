@@ -12,27 +12,71 @@
         <h1>Get to know...</h1>
         <p class="bio">Justin Smith</p>
       </header>
-    <nav class="links">
-     <button type="button"> Homepage</button>
-     <button type="button"> About Me</button>
-     <button type="button"> View My Work</button>
-     <button type="button"> Contact Me!</button>
+    <nav class="button-links">
+     <a class="button" href="#nameplt"> About Me</a>
+     <a class="button" href="#projects"> View My Work</a>
+     <a class="button" href="#contacts"> Contact Me!</a>
     </nav>
-    <img src="./assets/images/me.jpg" alt="A headshot of me" class="float">
+    <section id="myPicture">
+      <img title="Hello!" src="./assets/images/me.jpg" alt="A headshot of me">
+    </section>
+  <article>
     <section>
-      <h2> About Me</h2>
-      <p class="about"> My name is Justin Smith, I am from Bloomfield, CT and I am an aspiring programmer.
+      <h2 id="nameplt">About Me</h2>
+      <p id="about"> My name is Justin Smith, I am from Bloomfield, CT, recently moved from Atlanta, Georgia. I am an aspiring programmer.
        I have always had a strong passion for computer systems and hardware, but recently 
-       I have had my sights set on what makes these systems, and the applications we use everyday, run on a software level. 
-       Outside of honing my skills as a programmer, 
-       you can find me improving myself in the gym, playing my favorite games, or in my backyard shooting my bow. 
+       I have had my sights set on what makes these systems, and the applications we use everyday run on a software level. 
+       Between work and honing my skills as a programmer, 
+       you can find me in my off time improving myself in the gym, trying to expand my record collection or playing my favorite video games 
       </p>
+      <img class="pcPic" title="Specs are as follows, if that's your thing 
+      Cpu: Ryzen 7 3700x 
+      CPU Cooler: Corsair H150 Elite Capellix 360mm 
+      GPU: Zotac RTX 3070 
+      RAM: 32gb 3200mhz 
+      MB: MSI B550 Tomahawk Max 
+      Storage: 1TB Samsung 980 m.2 SSD & WD Blue 1TB SSD
+      PSU: Corsair RM850x " src="./assets/images/PC.JPG" alt="My PC Build"> 
+      <img class="recordColl" title="A few favorites out of these
+      Frank Ocean - Endless
+      Gza - Liquid Swords
+      Toro y Moi - What For?" src="./assets/images/records.JPG" alt="record collection">
     </section>
     
+    <section id="projects">
+      <h3> My Work </h3>
+      <a href="https://jjsmith32199.github.io/challenge1/#social-media-marketing">
+        <img  src="./assets/images/digital-marketing-meeting.jpg" class="project1" alt="Horiseon Landing Page Image">Horiseon Landing Page Accessability Focus
+      </a>
+      <a>
+          <h4>More Coming Soon!</h4>
+        <img src="./assets/images/work-in-progress.png" class="WIP" alt="Work in Progress clip art">
+      </a>
+      <a>
+        <img src="./assets/images/work-in-progress.png" class="WIP" alt="Work in Progress clip art">
+      </a>
+    </section>
 
-            
-
-
+  <section id="contacts">
+    <h5>Get in Contact</h4>
+    <p> 
+      <img src="./assets/images/gmail logo.png" class="icon" alt="gmail icon">
+      <a href="mailto: jj.smith32199@gmail.com" class="cLinks"> Send an Email</a>
+    </p>
+    <p>
+      <img src="assets/images/phone logo.png" class="icon" alt="smartphone icon">
+      <a href="tel:6789342507" class="cLinks"> Contact me via phone</a>
+    </p>
+    <p>
+      <img src="./assets/images/GitHub-Logo.webp" class="icon" alt="github logo">
+      <a href="https://github.com/jjsmith32199" class="cLinks"> Visit my Github Page</a>
+    </p>
+    <p>
+      <img src="./assets/images/linkedin logo.png" class="icon" alt="linkedin logo">
+      <a href="www.linkedin.com/in/justin-smith-10a37a246" class="cLinks">Check out my Linkedin</a>
+    </p>
+  </section>
+</article>
 
       
 </body>

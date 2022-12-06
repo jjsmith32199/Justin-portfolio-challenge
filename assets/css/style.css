@@ -1,5 +1,8 @@
 body{
-    background-color: lavender;
+    background-color: darkcyan;
+    position: relative;
+    font-family: serif;
+    width: 100%;
 }
 h1{
     font-size: 64px;
@@ -20,60 +23,53 @@ h1{
     border: 5px solid black;
     justify-content: center;
     position: absolute;
-    left: 40%;
-    top: 10%;
+    left: 39%;
+    top: 5%;
     text-align: center;
-    display: flex;
-    flex-shrink: inherit;
+ 
+    
 }
-button{
+.button:hover, .project1:hover, .pcPic:hover, .recordColl:hover {
+    border-color: greenyellow;
+}
+.button{
+    text-align: center;
     background-color: rebeccapurple;
     color: black;
-    font-size: small;
+    font-size: 26px;
     margin-right: 20px;
     justify-content: center;
     padding: 15px;
     font-weight: 900;
-    align-items: center;
-    text-align: center;
-   
-
-
-
-}
-button:hover {
-    border-color: greenyellow;
-}
-
-.links{
-    text-align: center;
-    position:  relative;
-    top: 25px;
-}
-
-img{
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 400px;
+    position: relative;
+    left: 615px;
+    top: 100px;
+    cursor: pointer;
     border-color: black;
-    top: 500px;
     border-style: solid;
-    float: left;
-    
 
 }
-.float{
+article {
     display: flex;
-    align-items: center;
-    position: absolute;
-    top:800px;
-    left:20px;
-    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
+#myPicture img{
+    width: 330px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    left: 750px;
+    top: 200px;
+    border: 5px solid;
+    border-color: black;
+}
 
-h2{
+#nameplt{
     background-color: rebeccapurple;
     font-size:40px;
     border-style: solid;
@@ -86,14 +82,117 @@ h2{
 
 }
 
-.about{
+#about{
     position: relative;
     top: 400px;
     justify-content: center;
-    text-align: right;
+    text-align: left;
     font-weight: bolder;
     font-size: 20px;
     
 
 
+}
+.pcPic, .recordColl{
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 400px;
+    left: 550px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+h3{
+    font-size: 35px;
+    text-decoration: underline;
+    font-size: 33px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 33px;
+    text-decoration: underline;
+    font-style: italic;
+}
+h5 {
+    font-size: 40px;
+    font-style: italic;
+}
+#contacts{
+    background-color: aquamarine;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 170%;
+    left: 33%;
+}
+.icons{
+    margin-top: 200px;
+}
+#contacts img{
+    width: 30px;
+    height:auto;
+
+}
+#projects{
+    position: relative;
+    top: 800px;
+    background-color: rebeccapurple;
+    border-radius: 10%;
+    border-color: black;
+    border-style: solid;
+    
+
+}
+ .project1 {
+    width: 500px;
+    height: auto;
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    left: 150px;
+    
+ }
+
+.WIP{
+    width:300px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    margin-left: 20px;
+    
+
+}
+.cLinks{
+    font-size: 20px;
+
+}
+.cLinks:active{
+ color:antiquewhite
+}
+@media screen and (max-width: 1440px){
+    body {
+        background-color:lightblue; 
+        width: 100%;
+    }
+   .bio{
+    display: flex;
+    flex-direction: column;
+   }
+}
+@media screen and (min-width: 800px){
+    
+}
+@media screen and (min-height: 800px){
+
+}
+@media screen and (max-height:2160px){
+    
 }
