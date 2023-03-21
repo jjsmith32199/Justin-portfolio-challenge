@@ -30,7 +30,7 @@ h1{
  
     
 }
-.button:hover, .project1:hover, .pcPic:hover, .recordColl:hover {
+.button:hover, .project1:hover, .pcPic:hover, .recordColl:hover, .project2:hover, .project3:hover {
     border-color: greenyellow;
 }
 .button{
@@ -144,25 +144,26 @@ h5 {
 }
 #projects{
     position: relative;
-    top: 800px;
+    top: 1000px;
     background-color: rebeccapurple;
     border-radius: 10%;
     border-color: black;
     border-style: solid;
-    
+    width: fit-content;
 
 }
-.project1 {
+.project1, .project2, .project3 {
     width: 470px;
+    display: flex;
     height: auto;
     border-radius: 20%;
     border-color: black;
     border-style: solid;
     position: relative;
-    left: 150px;
+    left: 00px;
+    flex-direction: row;
     
  }
-
 .WIP{
     width:300px;
     border-radius: 50%;
